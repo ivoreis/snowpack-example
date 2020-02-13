@@ -20,6 +20,10 @@ module.exports = {
     'eslint-plugin-react-hooks',
     'jsx-a11y'
   ],
-  extends: ['prettier', 'prettier/@typescript-eslint', 'prettier/react'],
+  extends: [
+    'prettier',
+    'prettier/@typescript-eslint',
+    'prettier/react'
+  ],
   rules: {},
 }
